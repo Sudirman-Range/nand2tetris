@@ -1,0 +1,12 @@
+*.tst
+*.out
+*.cmp
+*.hack
+*.jack
+*.pdf
+*.gif
+*.txt
+
+/00
+/demo
+/13
