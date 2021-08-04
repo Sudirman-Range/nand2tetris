@@ -49,7 +49,7 @@
     @KBD
     D=M
     @LOOP
-    D;JEQ  //if M[KBD] == 0 goto DISPLAYWHITE
+    D;JEQ  //if M[KBD] == 0 goto LOOP
     @BLACKLOOP
     0;JMP
 
@@ -76,10 +76,9 @@
     @KBD
     D=M
     @LOOP
-    D;JNE  //if M[KBD] != 0 goto DISPLAYBLACK
+    D;JNE  //if M[KBD] != 0 goto LOOP
     @WHITELOOP
     0;JMP
-
 
 
 
